@@ -1,6 +1,5 @@
 .wrapper{
     height: 80px;
-    border-bottom: 1px solid #000;
     box-shadow: 0px 0px 5px 0px;
     display: flex;
     align-items: center;
@@ -14,4 +13,14 @@
 .header > nav{
     display: flex;
     grid-gap: 1em;
+}
+
+.header > nav > a{
+    text-decoration: none;
+    color: #363a40;
+}
+
+.header > nav > a:hover{
+    background-color: #363a40;
+    color: aliceblue;
 }
