@@ -1,12 +1,12 @@
 import css from "./Header.module.css";
-import logo from "../assets/images/logo.svg"
+import logo from "../assets/images/logob.svg"
 
 export default function Header() {
   return (
     <div className={css.wrapper}>
       <header className={`container ${css.header}`}>
         <img height={'60px'} src={logo} alt='this is logo' />
-
+        
         <nav className={css.nav}>
           <a href="#">Все объявления</a>
           <a href="#">О нас</a>

@@ -1,0 +1,19 @@
+footer{
+    background-color: rgb(58, 54, 54);
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: aliceblue;
+}
