@@ -8,6 +8,7 @@ export default function Homepage() {
         <Card />
         <Card />
         <Card />
+        <Card />
       </div>
     </div>
   );

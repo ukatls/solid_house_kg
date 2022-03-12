@@ -4,3 +4,17 @@
     border-radius: 10px;
     box-shadow: 2px 3px 11px -4px;
 }
+
+.img{
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.wrapper > button{
+    margin: 20px;
+    background-color: rgb(177, 208, 253);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
