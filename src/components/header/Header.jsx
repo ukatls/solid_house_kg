@@ -8,9 +8,9 @@ export default function Header() {
         <img height={'60px'} src={logo} alt='this is logo' />
         
         <nav className={css.nav}>
-          <a href="#">Все объявления</a>
-          <a href="#">О нас</a>
-          <a href="#">Контакты</a>
+          <a href="https://brave-euclid-650084.netlify.app">Все объявления</a>
+          <a href="https://brave-euclid-650084.netlify.app">О нас</a>
+          <a href="https://brave-euclid-650084.netlify.app">Контакты</a>
         </nav>
 
       </header>
