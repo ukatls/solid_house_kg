@@ -5,58 +5,58 @@ import logo from "../assets/images/logow.svg";
 export default function Footer() {
   return (
     <div>
-      <footer className={css.footer} role="contentinfo">
+      <footer className={css.footer} >
         <div className="container">
           <div className={css.info}>
-            <a href="#" itemProp="url">
+            <a href="https://brave-euclid-650084.netlify.app">
               <img height={"100px"} src={logo} alt="Incase" />
             </a>
-            <nav role="navigation">
+            <nav>
               <small>About</small>
               <ul>
                 <li>
-                  <a href="#">About us</a>
+                  <a href="https://brave-euclid-650084.netlify.app">About us</a>
                 </li>
 
                 <li>
-                  <a href="#">Timeline</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Timeline</a>
                 </li>
 
                 <li>
-                  <a href="#">Careers</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Careers</a>
                 </li>
 
                 <li>
-                  <a href="#">Dealer Registration</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Dealer Registration</a>
                 </li>
 
                 <li>
-                  <a href="#">Corporate Sales</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Corporate Sales</a>
                 </li>
               </ul>
             </nav>
 
-            <nav role="navigation">
+            <nav>
               <small>Support</small>
               <ul>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Contact Us</a>
                 </li>
 
                 <li>
-                  <a href="#">Returns</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Returns</a>
                 </li>
 
                 <li>
-                  <a href="#">Warranty</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Warranty</a>
                 </li>
 
                 <li>
-                  <a href="#">Help / Shipping</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Help / Shipping</a>
                 </li>
 
                 <li>
-                  <a href="#">Support</a>
+                  <a href="https://brave-euclid-650084.netlify.app">Support</a>
                 </li>
               </ul>
             </nav>
