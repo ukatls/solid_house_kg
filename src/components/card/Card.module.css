@@ -15,10 +15,20 @@
     overflow: hidden;
 }
 
+.img{
+    object-fit:none;
+}
+
 .wrapper > button{
     margin: 20px;
     background-color: rgb(177, 208, 253);
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
+}
+
+.p{
+    min-width: 300px;
+    width: auto;
+    max-width: 500px;
 }

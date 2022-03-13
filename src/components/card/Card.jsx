@@ -8,7 +8,7 @@ export default function Card(props) {
       </div>
       <h2>{props.price}</h2>
       <h3>{props.title}</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio optio, incidunt accusamus at placeat odit nesciunt illum quod. Facere, reprehenderit!</p>
+      <p className={css.p}>{props.description}</p>
       <button>Подробнее</button>
     </div>
   )
