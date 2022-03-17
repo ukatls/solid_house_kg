@@ -1,6 +1,6 @@
 import css from "./Header.module.css";
 import logo from "../assets/images/logob.svg"
-
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className={css.wrapper}>
@@ -8,9 +8,9 @@ export default function Header() {
         <img height={'60px'} src={logo} alt='this is logo' />
         
         <nav className={css.nav}>
-          <a href="https://brave-euclid-650084.netlify.app">Все объявления</a>
-          <a href="https://brave-euclid-650084.netlify.app">О нас</a>
-          <a href="https://brave-euclid-650084.netlify.app">Контакты</a>
+          <Link to="/all">Все объявления</Link>
+          <a href="#">О нас</a>
+          <a href="#">Контакты</a>
         </nav>
 
       </header>

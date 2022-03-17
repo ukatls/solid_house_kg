@@ -47,6 +47,11 @@
 .cardsWrapper{
   margin-top: 45px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   grid-gap: 1em;
+  flex-wrap: wrap;
+}
+
+main,section{
+  min-height: 100vh;
 }
