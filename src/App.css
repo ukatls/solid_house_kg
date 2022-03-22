@@ -55,3 +55,7 @@
 main,section{
   min-height: 100vh;
 }
+
+.detailCard{
+  display: flex;
+}

@@ -1,13 +1,13 @@
 import Card from "../components/card/Card";
 import { useState, useEffect } from "react";
-import { baseUrl, house } from "../constants";
+import { baseUrl,  houseApi } from "../constants";
 
 export default function Homepage() {
   const [houses, setHouses] = useState([]);
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(baseUrl + house)
+    fetch(baseUrl + houseApi)
       .then((resp) => resp.json())
       .then((data) => (setHouses(data.slice(0, 3)), setLoading(false)));
   }, []);
@@ -35,7 +35,6 @@ export default function Homepage() {
               title={house.title}
               imgUrl={house.imgUrl}
               price={house.price}
-              description={house.description}
             />
           ))}
         </div>

@@ -7,6 +7,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
 
           <Route path="/all" element={<h1>fdhfhhkdf</h1>} />
 
-          <Route path="/house/:id" element={<h1>House</h1>} />
+          <Route path="/house/:id" element={<Detail/>} />
 
         </Routes>
         <Footer />

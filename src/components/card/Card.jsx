@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import css from "./Card.module.css";
 
 export default function Card(props) {
+  
   return (
+    
     <div className={css.wrapper}>
       <div className={css.imgWrapper}>
         <img className={css.img} src={props.imgUrl} alt="#" />
@@ -14,5 +16,6 @@ export default function Card(props) {
         <button >Подробнее</button>
       </Link>
     </div>
+    
   );
 }
