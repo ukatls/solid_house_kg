@@ -1,14 +1,17 @@
 import React from "react";
-import { baseUrl,house } from './../constants/index';
+import { houseApi, baseUrl } from "../constants";
+import { useState, useEffect } from "react";
+import Card from "../components/card/Card";
+
 
 export default function AllAds() {
     const [houses, setHouses] = useState([]);
     const [isLoading, setLoading] = useState(true);
   
     useEffect(() => {
-      fetch(baseUrl + house)
+      fetch(baseUrl + houseApi)
         .then((resp) => resp.json())
-        .then((data) => (setHouses(data.slice(0, 3)), setLoading(false)));
+        .then((data) => (setHouses(data), setLoading(false)));
     }, []);
   
     if (isLoading) {

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { baseUrl, houseApi } from "../constants";
 import { useParams } from "react-router-dom";
 
+
 export default function Detail() {
   const [houses, setHouses] = useState(null);
   const [isLoading, setLoading] = useState(true);
@@ -13,7 +14,7 @@ export default function Detail() {
       .then((resp) => resp.json())
       .then((data) => setHouses(data), setLoading(false));
   }, []);
-  if (isLoading) {
+  if (!houses) {
     return (
       <div className="text-center mt-5">
         <img
@@ -23,9 +24,6 @@ export default function Detail() {
         />
       </div>
     );
-  }
-  if (!houses) {
-    return <h1>Not data</h1>;
   }
   return (
     <div className="detailCard">
@@ -40,4 +38,3 @@ export default function Detail() {
     </div>
   );
 }
-

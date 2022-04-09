@@ -46,18 +46,6 @@ export default function Footer() {
                 <li>
                   <a href="https://brave-euclid-650084.netlify.app">Returns</a>
                 </li>
-
-                <li>
-                  <a href="https://brave-euclid-650084.netlify.app">Warranty</a>
-                </li>
-
-                <li>
-                  <a href="https://brave-euclid-650084.netlify.app">Help / Shipping</a>
-                </li>
-
-                <li>
-                  <a href="https://brave-euclid-650084.netlify.app">Support</a>
-                </li>
               </ul>
             </nav>
           </div>

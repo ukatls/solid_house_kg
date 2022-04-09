@@ -5,12 +5,12 @@ export default function Header() {
   return (
     <div className={css.wrapper}>
       <header className={`container ${css.header}`}>
-        <img height={'60px'} src={logo} alt='this is logo' />
+        <Link to='/'><img height={'60px'} src={logo} alt='this is logo' /></Link>
         
         <nav className={css.nav}>
           <Link to="/all">Все объявления</Link>
           <a href="#">О нас</a>
-          <a href="#">Контакты</a>
+          <Link to='/ContactsUs'>Контакты</Link>
         </nav>
 
       </header>

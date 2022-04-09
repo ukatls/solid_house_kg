@@ -8,6 +8,8 @@ import {
   Routes,
 } from "react-router-dom";
 import Detail from "./pages/Detail";
+import AllAds from "./pages/AllAds";
+import ContactsUs from "./pages/ContactsUs";
 
 function App() {
   return (
@@ -17,9 +19,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
 
-          <Route path="/all" element={<h1>fdhfhhkdf</h1>} />
+          <Route path="/all" element={<AllAds/>} />
 
           <Route path="/house/:id" element={<Detail/>} />
+
+          <Route path="/ContactsUs" element={<ContactsUs/>}/>
 
         </Routes>
         <Footer />
